@@ -1,0 +1,27 @@
+## git commands to make branches etc.
+## pass by value pass by reference
+## type coercion
+## ES7 
+array.includes(), 
+exponential: let cube = (x) => x**3;
+            cube(2);
+            
+## Advanced loops:
+for of: it's mainly for strings and arrays ### iterable
+```
+    let basket = ["apples", "mangoes, "grapes"]
+    for (items in basket) {
+        console.log(items);
+        }
+```
+for in: mainly used in objects ### enumerable
+```
+    let basketList = {
+        apples: 12,
+        mangoes: 4,
+        grapes: 50
+        };
+    for (items of basketList) {
+        console.log(items);
+        }
+```
